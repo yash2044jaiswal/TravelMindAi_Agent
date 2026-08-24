@@ -1,0 +1,14 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.aurora-bg {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(168,85,247,0.08) 0%, rgba(6,182,212,0.03) 50%, rgba(0,0,0,0) 100%);
+  filter: blur(60px);
+  pointer-events: none;
+}
