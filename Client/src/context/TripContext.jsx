@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext } from 'react'
-import { tripService } from '../Services/tripService'
+import { tripService } from '../Services/tripService.js'
 import toast from 'react-hot-toast'
 
 const TripContext = createContext()
