@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext, useRef } from 'react';
-import { chatService } from '../Services/chatService';
+import { chatService } from '../Services/chatService.js';
 import toast from 'react-hot-toast';
 
 const ChatContext = createContext();
