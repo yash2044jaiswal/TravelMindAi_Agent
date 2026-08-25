@@ -22,18 +22,18 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Product</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link to="/features" className="hover:text-white transition-colors">Features</Link></li>
-              <li><Link to="/how-it-works" className="hover:text-white transition-colors">How It Works</Link></li>
-              <li><Link to="/pricing" className="hover:text-white transition-colors">Pricing</Link></li>
+              <li><Link to="/" className="hover:text-white transition-colors">Features</Link></li>
+              <li><Link to="/" className="hover:text-white transition-colors">How It Works</Link></li>
+              <li><Link to="/" className="hover:text-white transition-colors">Pricing</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link to="/about" className="hover:text-white transition-colors">About Us</Link></li>
-              <li><Link to="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-              <li><Link to="/careers" className="hover:text-white transition-colors">Careers</Link></li>
+              <li><Link to="/" className="hover:text-white transition-colors">About Us</Link></li>
+              <li><Link to="" className="hover:text-white transition-colors">Blog</Link></li>
+              <li><Link to="/" className="hover:text-white transition-colors">Careers</Link></li>
             </ul>
           </div>
           
@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/10 mt-8 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; 2026 TravelMind AI. All rights reserved. Built for Microsoft AI Hackathon.</p>
+          <p>&copy; 2026 TravelMind AI. All rights reserved. Built for  AI Hackathon.</p>
         </div>
       </div>
     </footer>
