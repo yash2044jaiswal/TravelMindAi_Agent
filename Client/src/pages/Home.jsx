@@ -44,7 +44,7 @@ const Home = () => {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-500/10 border border-primary-500/20 mb-6"
               >
                 <FiAward className="text-primary-400" />
-                <span className="text-sm text-primary-400">Microsoft AI Hackathon 2026</span>
+                <span className="text-sm text-primary-400"> Hackathons 2026</span>
               </motion.div>
               
               <motion.h1 
