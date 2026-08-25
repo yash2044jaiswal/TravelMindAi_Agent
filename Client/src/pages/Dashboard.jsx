@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { useTrips } from '../context/TripContext'
-import { userService } from '../services/userService'
+import { userService } from '../Services/userService'
 import StatsCard from '../components/dashboard/StatsCard'
 import RecentTrips from '../components/dashboard/RecentTrips'
 import ActivityFeed from '../components/dashboard/ActivityFeed'
